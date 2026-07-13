@@ -13,6 +13,21 @@ export default function PortfolioHomepage() {
   };
   const projects = [
     {
+  title: "AI Chatbot",
+  description:
+    "A full-stack AI chatbot built with the MERN stack featuring persistent chat history, multiple conversations, and Google Gemini API integration.",
+  tech: [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Gemini API",
+  ],
+  github: "https://github.com/tanmai1223/Chatbot",
+  live: "https://chatbotmer.netlify.app",
+  image: "/images/chatbot.png",
+},
+    {
       title: "API Tracer Management System",
       description:
         "A real-time API monitoring dashboard built using the MERN stack with request latency tracking and log monitoring.",
@@ -30,15 +45,7 @@ export default function PortfolioHomepage() {
       live: "https://restaurantpp.netlify.app",
       image: "/images/restaraunt.png",
     },
-    {
-      title: "Memories Social App",
-      description:
-        "A social media-style MERN application supporting authentication, media uploads, and CRUD operations.",
-      tech: ["React", "Express", "MongoDB"],
-      github: "https://github.com/tanmai1223/memories",
-      live: "https://mymemoriesp.netlify.app",
-      image: "/images/memories.png",
-    },
+    
     {
       title: "Note Maker Application",
       description:
@@ -51,17 +58,22 @@ export default function PortfolioHomepage() {
   ];
 
   const skills = [
-    "React.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "JavaScript",
-    "REST APIs",
-    "Git",
-    "Postman",
-    "HTML",
-    "CSS",
-  ];
+  "React.js",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "JavaScript",
+  "Google Gemini API",
+  "REST APIs",
+  "JWT",
+  "Docker",
+  "GitHub Actions",
+  "CI/CD",
+  "Git",
+  "Postman",
+  "HTML5",
+  "CSS3",
+];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-zinc-950 to-black text-white px-4 sm:px-6 lg:px-10 py-8 overflow-x-hidden">
@@ -73,18 +85,20 @@ export default function PortfolioHomepage() {
             Available for Full Stack Developer Roles
           </div>
           <p className="text-green-400 uppercase tracking-widest text-sm">
-            Full Stack Developer
-          </p>
+  Full Stack Developer • MERN • AI Integration
+</p>
 
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
             Hi, I'm <span className="text-green-400">Tanmai</span>
           </h1>
 
           <p className="text-gray-300 text-lg max-w-2xl leading-8">
-            Fresher Full Stack Developer specializing in MERN stack development.
-            Passionate about building scalable web applications, dashboards, and
-            modern user experiences through real-world projects.
-          </p>
+  Full Stack Developer specializing in the MERN stack with hands-on
+  experience building scalable web applications, REST APIs, AI-powered
+  applications using Google Gemini API, and modern backend systems.
+  Passionate about solving real-world problems through clean architecture
+  and intuitive user experiences.
+</p>
 
           <div className="flex gap-4 flex-wrap">
             <a
@@ -125,13 +139,14 @@ export default function PortfolioHomepage() {
         <h2 className="text-3xl font-bold mb-6 text-green-400">About Me</h2>
 
         <div className="bg-zinc-900 rounded-3xl p-8 shadow-xl">
-          <p className="text-gray-300 leading-8 text-lg">
-            I'm an aspiring Full Stack Developer and recent graduate with
-            hands-on experience building MERN stack applications including
-            dashboards, monitoring systems, and social media platforms. I enjoy
-            creating clean user interfaces, scalable backend systems, and
-            practical real-world solutions through code.
-          </p>
+         <p className="text-gray-300 leading-8 text-lg">
+  I'm a Full Stack Developer with experience building production-ready MERN
+  applications ranging from AI chatbots and restaurant management systems
+  to API monitoring dashboards. I enjoy designing scalable backend
+  architectures, integrating AI capabilities, building RESTful APIs, and
+  creating responsive frontend experiences. I'm continuously learning cloud
+  technologies, DevOps, and modern software engineering practices.
+</p>
         </div>
       </section>
 
