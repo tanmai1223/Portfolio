@@ -30,7 +30,7 @@ export default function PortfolioHomepage() {
     {
       title: "API Tracer Management System",
       description:
-        "A real-time API monitoring dashboard built using the MERN stack with request latency tracking and log monitoring.",
+       "A MERN-based API monitoring dashboard for tracking request latency, API logs, response status, and performance analytics.",
       tech: ["React", "Node.js", "Express", "MongoDB"],
       github: "https://github.com/tanmai1223/finalProject",
       live: "https://apitracer.netlify.app",
@@ -39,7 +39,7 @@ export default function PortfolioHomepage() {
     {
       title: "Restaurant Management System",
       description:
-        "A full-stack restaurant ordering and admin dashboard application with real-time order management.",
+        "A scalable MERN restaurant management platform featuring customer ordering, admin dashboard, authentication, inventory management, and 20+ REST APIs.",
       tech: ["MERN", "REST APIs", "MongoDB"],
       github: "https://github.com/tanmai1223/fullstack",
       live: "https://restaurantpp.netlify.app",
@@ -179,7 +179,7 @@ export default function PortfolioHomepage() {
               Featured Projects
             </h2>
             <p className="text-gray-400 mt-2">
-              Real-world full stack applications built using the MERN stack.
+              Real-world full-stack applications focused on scalable backend systems, AI integration, REST APIs, and modern web development.
             </p>
           </div>
 
@@ -246,17 +246,54 @@ export default function PortfolioHomepage() {
           ))}
         </div>
       </section>
+<section className="max-w-6xl mx-auto py-16">
+  <h2 className="text-3xl font-bold text-green-400 mb-8">
+    Achievements
+  </h2>
 
+  <div className="grid md:grid-cols-3 gap-6">
+
+    <div className="bg-zinc-900 p-6 rounded-3xl border border-zinc-800">
+      <h3 className="text-xl font-semibold mb-3">
+        🏆 Hackathon Runner-up
+      </h3>
+
+      <p className="text-gray-400">
+        Secured 2nd Runner-Up in Brillio Sparxelerate Hackathon.
+      </p>
+    </div>
+
+    <div className="bg-zinc-900 p-6 rounded-3xl border border-zinc-800">
+      <h3 className="text-xl font-semibold mb-3">
+        🎓 B.Tech
+      </h3>
+
+      <p className="text-gray-400">
+        Information Technology • CGPA 8.84
+      </p>
+    </div>
+
+    <div className="bg-zinc-900 p-6 rounded-3xl border border-zinc-800">
+      <h3 className="text-xl font-semibold mb-3">
+        🚀 MERN Developer
+      </h3>
+
+      <p className="text-gray-400">
+        Built multiple production-ready MERN applications with AI integration.
+      </p>
+    </div>
+
+  </div>
+</section>
       {/* Contact */}
       <section className="max-w-6xl mx-auto py-16">
         <div className="bg-zinc-900 rounded-3xl p-10 text-center border border-zinc-800">
           <h2 className="text-4xl font-bold mb-6 text-green-400">
-            Download Resume
+            Download My Resume
           </h2>
 
           <p className="text-gray-400 text-lg mb-8">
-            Download my latest ATS-optimized resume for Full Stack Developer
-            roles.
+            Download my latest resume showcasing my MERN, AI Integration, REST API, Docker, and CI/CD experience.
           </p>
 
           <a
@@ -276,8 +313,8 @@ export default function PortfolioHomepage() {
           </h2>
 
           <p className="text-gray-400 text-lg mb-8">
-            Currently looking for Full Stack Developer, MERN Stack Developer,
-            and Software Engineer opportunities.
+            Open to Full Stack Developer, Backend Developer, MERN Stack Developer,
+and Software Engineer opportunities. Let's build something impactful together.
           </p>
 
           <div className="flex justify-center gap-4 flex-wrap mb-10">
