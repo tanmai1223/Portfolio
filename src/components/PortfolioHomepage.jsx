@@ -14,6 +14,23 @@ export default function PortfolioHomepage() {
 
   const projects = [
     {
+  title: "E-Commerce Application",
+  description:
+    "A full-stack e-commerce application built using Java 21, Spring Boot, Spring Security, Spring Data JPA, PostgreSQL, and React. Features product browsing, category filtering, live search, shopping cart functionality, JWT authentication, and role-based authorization for USER and ADMIN accounts.",
+  tech: [
+    "Java 21",
+    "Spring Boot",
+    "Spring Security",
+    "Spring Data JPA",
+    "PostgreSQL",
+    "React",
+    "JWT",
+  ],
+  github: "https://github.com/tanmai1223/Shopora",
+  live: "https://shoporas.netlify.app",
+  image: "/images/ecommerce.png",
+},
+    {
       title: "DocuChat AI",
       description:
         "A full-stack RAG-based PDF question-answering application using Gemini, Qdrant, and MongoDB. Users can upload PDFs, ask questions, and maintain contextual conversations for each document.",
@@ -139,26 +156,40 @@ export default function PortfolioHomepage() {
   ];
 
   const skills = [
-    "React.js",
-    "JavaScript",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "REST APIs",
-    "JWT",
-    "Google Gemini API",
-    "RAG",
-    "Qdrant",
-    "LangChain",
-    "Docker",
-    "GitHub Actions",
-    "CI/CD",
-    "Git",
-    "Postman",
-    "HTML5",
-    "CSS3",
-  ];
-
+  "JavaScript (ES6+)",
+  "Java",
+  "React.js",
+  "HTML5",
+  "CSS3",
+  "Node.js",
+  "Express.js",
+  "Spring Boot",
+  "Spring Security",
+  "Spring Data JPA",
+  "Hibernate",
+  "REST APIs",
+  "JWT Authentication",
+  "MongoDB",
+  "PostgreSQL",
+  "MySQL",
+  "Google Gemini API",
+  "LangChain",
+  "RAG",
+  "Qdrant",
+  "Postman",
+  "API Testing",
+  "Docker",
+  "Docker Compose",
+  "Git",
+  "GitHub",
+  "GitHub Actions",
+  "CI/CD",
+  "Netlify",
+  "Render",
+  "Vercel",
+  "Python (Learning) ",
+  "Selenium WebDriver (Learning)",
+];
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-zinc-950 to-black text-white px-6 sm:px-10 lg:px-16 xl:px-20 py-8 overflow-x-hidden">
       {/* ================= HERO ================= */}
@@ -171,22 +202,22 @@ export default function PortfolioHomepage() {
           </div>
 
           <p className="text-green-400 uppercase tracking-widest text-sm">
-            Full Stack Developer • MERN • AI Integration
-          </p>
+  Full Stack Developer • MERN • Java/Spring Boot • AI Integration
+</p>
 
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
             Hi, I'm <span className="text-green-400">Tanmai</span>
           </h1>
 
           <p className="text-gray-300 text-lg max-w-3xl leading-8">
-            Full Stack Developer specializing in the MERN stack, with hands-on
-            experience building scalable web applications, RESTful APIs, and
-            AI-powered applications using Google Gemini API and RAG. Experienced
-            in developing secure backend systems, database-driven applications,
-            and responsive user interfaces. Focused on building practical
-            solutions with clean architecture and modern software development
-            practices.
-          </p>
+  Full Stack Developer with hands-on project experience building
+  applications using React.js, Node.js, Express.js, MongoDB, Java,
+  and Spring Boot. Skilled in REST API development, authentication,
+  database-driven applications, and responsive user interfaces.
+  Also experienced in AI integration using Google Gemini API and
+  RAG, with exposure to Docker, GitHub Actions CI/CD, and API testing
+  using Postman. Currently learning Selenium WebDriver automation.
+</p>
 
           <div className="flex gap-4 flex-wrap">
             <a
@@ -231,15 +262,15 @@ export default function PortfolioHomepage() {
 
         <div className="bg-zinc-900 rounded-3xl p-8 shadow-xl">
           <p className="text-gray-300 leading-8 text-lg">
-            I'm a Full Stack Developer with experience building production-ready
-            MERN applications ranging from AI chatbots and RAG-based
-            applications to inventory management systems, restaurant management
-            platforms, and API monitoring dashboards. I enjoy designing scalable
-            backend architectures, integrating AI capabilities, building RESTful
-            APIs, and creating responsive frontend experiences. I'm continuously
-            learning cloud technologies, DevOps, and modern software engineering
-            practices.
-          </p>
+  I'm a Full Stack Developer who builds applications across the MERN
+  stack and Java/Spring Boot ecosystem. My projects include an
+  e-commerce application, AI chatbot, RAG-based PDF Q&A system,
+  inventory and restaurant management platforms, and a railway
+  training-resource portal. I enjoy developing REST APIs, implementing
+  authentication and authorization, integrating AI capabilities, and
+  troubleshooting application issues. I'm also expanding my knowledge
+  of automated testing and DevOps practices.
+</p>
         </div>
       </section>
 
@@ -354,6 +385,46 @@ export default function PortfolioHomepage() {
         </div>
       </section>
 
+      {/* ================= TRAINING & PROGRAMS ================= */}
+<section className="w-full max-w-[1600px] mx-auto py-16">
+  <h2 className="text-3xl font-bold text-green-400 mb-8">
+    Training & Programs
+  </h2>
+
+  <div className="grid md:grid-cols-2 gap-6">
+    <div className="bg-zinc-900 p-6 rounded-3xl border border-zinc-800">
+      <h3 className="text-xl font-semibold mb-3">
+        Full Stack Web Development + DSA Internship Training Program
+      </h3>
+
+      <p className="text-gray-400 mb-3">
+        Cuvette Tech Pvt. Ltd. • Completed February 2026
+      </p>
+
+      <p className="text-gray-300 leading-7">
+        Completed training in full-stack web development and Data
+        Structures and Algorithms, with hands-on work in MERN
+        application development, authentication, and Git/GitHub workflows.
+      </p>
+    </div>
+
+    <div className="bg-zinc-900 p-6 rounded-3xl border border-zinc-800">
+      <h3 className="text-xl font-semibold mb-3">
+        Brillio Learn Before Joining
+      </h3>
+
+      <p className="text-gray-400 mb-3">
+        Brillio (LBJ) • 2023–2024
+      </p>
+
+      <p className="text-gray-300 leading-7">
+        Completed the pre-onboarding program and secured 2nd Runner-Up
+        in the Sparxelerate internal hackathon.
+      </p>
+    </div>
+  </div>
+</section>
+
       {/* ================= ACHIEVEMENTS ================= */}
       <section className="w-full max-w-[1600px] mx-auto py-16">
         <h2 className="text-3xl font-bold text-green-400 mb-8">Achievements</h2>
@@ -379,8 +450,8 @@ export default function PortfolioHomepage() {
             <h3 className="text-xl font-semibold mb-3">🚀 MERN Developer</h3>
 
             <p className="text-gray-400">
-              Built multiple production-ready MERN applications with AI
-              integration.
+              Built multiple full-stack projects across MERN development,
+Java/Spring Boot, and AI integration.
             </p>
           </div>
         </div>
@@ -393,10 +464,10 @@ export default function PortfolioHomepage() {
             Download My Resume
           </h2>
 
-          <p className="text-gray-400 text-lg mb-8">
-            Download my latest resume showcasing my MERN, AI Integration, REST
-            API, Docker, and CI/CD experience.
-          </p>
+         <p className="text-gray-400 text-lg mb-8">
+  Download my resume showcasing my MERN and Java/Spring Boot projects,
+  AI integration, REST APIs, databases, Docker, and CI/CD exposure.
+</p>
 
           <a
             href="/Hekkadka_Tanmai_Resume.pdf"
