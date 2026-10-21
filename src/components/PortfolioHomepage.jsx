@@ -487,9 +487,9 @@ Java/Spring Boot, and AI integration.
           </h2>
 
           <p className="text-gray-400 text-lg mb-8">
-            Open to Full Stack Developer, Backend Developer, MERN Stack
-            Developer, and Software Engineer opportunities. Let's build
-            something impactful together.
+            Open to entry-level Full Stack Developer, MERN Developer, Java
+Developer, Backend Developer, and Software Engineer opportunities.
+Let's build something impactful together.
           </p>
 
           <div className="flex justify-center gap-4 flex-wrap mb-10">
